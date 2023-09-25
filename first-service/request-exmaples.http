@@ -1,0 +1,17 @@
+### Sync request with using Jetty Http Client
+POST http://localhost:8080/api/blog/httpclient/sync
+Content-Type: application/json
+
+{
+  "httpClientType" : "jetty",
+  "url" : "http://second-service:8080/api/blog/secondservice/test/ping"
+}
+
+### Async request with using Jetty Http Client
+POST http://localhost:8080/api/blog/httpclient/async
+Content-Type: application/json
+
+{
+  "httpClientType" : "jetty",
+  "url" : "https://example.com"
+}

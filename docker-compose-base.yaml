@@ -1,0 +1,59 @@
+version: "3.8.0"
+
+services:
+  first-service:
+    build: ./first-service/
+    ports:
+      - 8080:8080
+    environment:
+      - SERVER_PORT=8080
+      - JAVA_OPTS=-javaagent:/app/elastic-apm-agent-1.42.0.jar
+      - ELASTIC_APM_SERVICE_NAME=first-service
+      - ELASTIC_APM_APPLICATION_PACKAGES=kz.viden.blog.firstservice
+      - ELASTIC_APM_SERVER_URL=http://apm-server:8200
+      - ELASTIC_APM_ENVIRONMENT=development
+      - ELASTIC_APM_ENABLED=true
+      - ELASTIC_APM_ENABLE_EXPERIMENTAL_INSTRUMENTATIONS=true
+      - ELASTIC_APM_PLUGINS_DIR=/app/plugins/
+    depends_on: ['apm-server']
+  second-service:
+    build: ./second-service/
+    ports:
+      - 8081:8080
+    environment:
+      - SERVER_PORT=8080
+      - JAVA_OPTS=-javaagent:/app/elastic-apm-agent-1.42.0.jar
+      - ELASTIC_APM_SERVICE_NAME=second-service
+      - ELASTIC_APM_APPLICATION_PACKAGES=kz.viden.blog.secondservice
+      - ELASTIC_APM_SERVER_URL=http://apm-server:8200
+      - ELASTIC_APM_ENVIRONMENT=development
+      - ELASTIC_APM_ENABLED=true
+    depends_on: ['apm-server']
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:7.17.13
+    hostname: elassticsearch
+    environment:
+      - http.host=0.0.0.0
+      - transport.host=127.0.0.1
+      - bootstrap.memory_lock=true
+      - "ES_JAVA_OPTS=-Xms1g -Xmx1g"
+    mem_limit: 2g
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+    ports:
+      - 9200:9200
+
+  kibana:
+    image: docker.elastic.co/kibana/kibana:7.17.13
+    environment:
+      SERVER_NAME: kibana
+      ELASTICSEARCH_URL: http://elasticsearch:9200
+    ports: ['5601:5601']
+    depends_on: ['elasticsearch']
+
+  apm-server:
+    image: docker.elastic.co/apm/apm-server:7.17.13
+    ports: ['8200:8200']
+    depends_on: ['elasticsearch']
