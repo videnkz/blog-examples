@@ -9,7 +9,8 @@ import org.springframework.web.bind.annotation.RestController;
 public class TestController {
 
     @GetMapping("/ping")
-    public String ping() {
+    public String ping() throws InterruptedException {
+        Thread.sleep(2000);
         return "pong";
     }
 }

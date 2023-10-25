@@ -12,6 +12,8 @@ target/
 *.iml
 *.ipr
 
+./external_plugins
+
 ### Eclipse ###
 .apt_generated
 .classpath

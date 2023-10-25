@@ -7,7 +7,7 @@ services:
       - 8080:8080
     environment:
       - SERVER_PORT=8080
-      - JAVA_OPTS=-javaagent:/app/elastic-apm-agent-1.42.0.jar
+      - JAVA_OPTS=-javaagent:/app/elastic-apm-agent-1.43.0.jar
       - ELASTIC_APM_SERVICE_NAME=first-service
       - ELASTIC_APM_APPLICATION_PACKAGES=kz.viden.blog.firstservice
       - ELASTIC_APM_SERVER_URL=http://apm-server:8200

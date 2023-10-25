@@ -52,8 +52,9 @@ RUN mkdir /app && mkdir /app/plugins/ && \
 USER 1000
 
 COPY --chown=1000:1000 --from=build /usr/src/app/target/first-service-*.jar /app/app.jar
-ADD --chown=1000:1000 https://repo1.maven.org/maven2/co/elastic/apm/elastic-apm-agent/1.42.0/elastic-apm-agent-1.42.0.jar /app/elastic-apm-agent-1.42.0.jar
+ADD --chown=1000:1000 https://repo1.maven.org/maven2/co/elastic/apm/elastic-apm-agent/1.43.0/elastic-apm-agent-1.43.0.jar /app/elastic-apm-agent-1.43.0.jar
 ADD --chown=1000:1000 https://github.com/videnkz/apm-jetty-httpclient-plugin/releases/download/v0.2/jetty-httpclient-plugin-0.2.jar /app/plugins/jetty-httpclient-plugin-0.2.jar
+ADD --chown=1000:1000 https://github.com/videnkz/apm-grizzly-asynchttpclient-plugin/releases/download/0.1/grizzly-asynchttpclient-plugin-0.1.jar /app/plugins/grizzly-asynchttpclient-plugin-0.1.jar
 
 WORKDIR /app
 

@@ -19,6 +19,8 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <!--     http clients versions   -->
         <httpclient.jetty.version>11.0.6</httpclient.jetty.version>
+        <httpclient.google.version>1.43.3</httpclient.google.version>
+        <httpclient.grizzly.version>1.15</httpclient.grizzly.version>
     </properties>
 
     <dependencies>
@@ -32,6 +34,22 @@
             <artifactId>jetty-client</artifactId>
             <version>${httpclient.jetty.version}</version>
         </dependency>
+        <dependency>
+            <groupId>com.google.http-client</groupId>
+            <artifactId>google-http-client</artifactId>
+            <version>${httpclient.google.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.glassfish.grizzly</groupId>
+            <artifactId>grizzly-http-client</artifactId>
+            <version>${httpclient.grizzly.version}</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/com.ning/async-http-client -->
+<!--        <dependency>-->
+<!--            <groupId>com.ning</groupId>-->
+<!--            <artifactId>async-http-client</artifactId>-->
+<!--            <version>1.9.40</version>-->
+<!--        </dependency>-->
         <!-- https://mvnrepository.com/artifact/org.eclipse.jetty/jetty-io -->
         <dependency>
             <groupId>org.eclipse.jetty</groupId>
