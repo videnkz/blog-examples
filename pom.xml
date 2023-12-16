@@ -13,6 +13,7 @@
         <module>second-service</module>
         <module>reactive-first-sservice</module>
         <module>reactive-second-service</module>
+        <module>spring-java17-service</module>
     </modules>
 
     <properties>
@@ -20,5 +21,6 @@
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+
 
 </project>

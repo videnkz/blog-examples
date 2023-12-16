@@ -57,3 +57,9 @@ services:
     image: docker.elastic.co/apm/apm-server:7.17.13
     ports: ['8200:8200']
     depends_on: ['elasticsearch']
+
+  rabbitmq:
+    image: rabbitmq:3-management
+    ports:
+      - 5672:5672
+      - 15672:15672
