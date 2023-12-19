@@ -1,0 +1,20 @@
+FROM maven:3.8.6-amazoncorretto-17 AS build
+COPY src /usr/src/app/src
+COPY pom.xml /usr/src/app
+RUN mvn -f /usr/src/app/pom.xml clean package
+
+FROM amazoncorretto:17-alpine
+
+ARG APPLICATION_USER=foobar
+RUN adduser --no-create-home -u 1000 -D $APPLICATION_USER
+
+USER 1000
+
+COPY --chown=1000:1000 --from=build /usr/src/app/target/spring-java17-*.jar /app/app.jar
+ADD --chown=1000:1000 https://repo1.maven.org/maven2/co/elastic/apm/elastic-apm-agent/1.45.0/elastic-apm-agent-1.45.0.jar /app/elastic-apm-agent-1.45.0.jar
+
+WORKDIR /app
+
+EXPOSE $SERVER_PORT
+
+CMD java $JAVA_MEMORY_OPTS $GC_OPTS $JAVA_OPTS -Djava.security.egd=file:/dev/./urandom -jar app.jar

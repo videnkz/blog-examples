@@ -20,7 +20,7 @@ RUN mkdir /app/unpacked && \
     --module-path="./unpacked/BOOT-INF/lib/*" \
     ./app.jar > /deps.info
 
-FROM amazoncorretto:17-alpine as openjdk
+FROM amazoncorretto:17-alpine as minified
 
 RUN apk add --no-cache binutils
 
@@ -41,7 +41,7 @@ FROM alpine:latest
 ENV JAVA_HOME=/jre
 ENV PATH="${JAVA_HOME}/bin:${PATH}"
 
-COPY --from=openjdk /customjre $JAVA_HOME
+COPY --from=minified /customjre $JAVA_HOME
 
 ARG APPLICATION_USER=foobar
 RUN adduser --no-create-home -u 1000 -D $APPLICATION_USER

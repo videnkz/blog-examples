@@ -1,0 +1,8 @@
+GET http://localhost:8080/ping
+
+###
+PUT http://localhost:8080/ping
+
+
+###
+POST http://localhost:8080/ping

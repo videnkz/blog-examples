@@ -4,35 +4,45 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf757e3f-6651-4ac1-9cff-c1eb67277f28" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/blogs/01_custom_jre_spring_with_apm_agent_java17.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose-v8.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/first-service/src/main/java/kz/viden/blog/firstservice/rabbit/ExceptionRabbitListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/first-service/src/main/java/kz/viden/blog/firstservice/rabbit/RabbitController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/first-service/src/main/java/kz/viden/blog/firstservice/rabbit/RabbitDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/first-service/src/main/java/kz/viden/blog/firstservice/rabbit/RabbitService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run-apm-locally-v8.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+    <list default="true" id="ccb13307-47e7-4f69-86e9-cf2e311b2b7f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/blogs/01_2_custom_jre_spring_with_apm_agent_java21.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogs/composes/02_custom_jre_spring_java21/docker-compose.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogs/images/01_1/01_1_0_services.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogs/images/01_1/01_1_1_service_metadata.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogs/images/01_1/01_1_2_data.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogs/images/01_1/01_1_2_transaction.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-java17/Dockerfile_v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-java17/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-java21/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-java21/ping.http" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-java21/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2023-12-16T214258.200.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose-base.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose-base.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/first-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first-service/request-exmaples.http" beforeDir="false" afterPath="$PROJECT_DIR$/first-service/request-exmaples.http" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first-service/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/first-service/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogs/01_custom_jre_spring_with_apm_agent_java17.md" beforeDir="false" afterPath="$PROJECT_DIR$/blogs/01_1_custom_jre_spring_with_apm_agent_java17.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogs/composes/01_custom_jre_spring_java17/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/blogs/composes/01_custom_jre_spring_java17/docker-compose.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-java17-service/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-java17-service/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-java17-service/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-java17-service/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/spring-java17/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-java17-service/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-java17-service/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-java17-service/ping.http" beforeDir="false" afterPath="$PROJECT_DIR$/spring-java17/ping.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-java17-service/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-java17-service/src/main/java/kz/viden/springjava17service/PingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-java21/src/main/java/kz/viden/springjava21service/PingController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-java17-service/src/main/java/kz/viden/springjava17service/SpringJava17ServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-java21/src/main/java/kz/viden/springjava21service/SpringJava21ServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-java17-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-java17/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-java17-service/src/test/java/kz/viden/springjava17service/SpringJava17ServiceApplicationTests.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -54,11 +64,14 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;customColor&quot;: &quot;&quot;,
-  &quot;associatedIndex&quot;: 3
-}</component>
-  <component name="ProjectId" id="2ZZ7o7HB3PJsaJWefjdyl9iws6e" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="2ZhgzQRZOucSGRYvIjVrome5IXm" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -66,41 +79,61 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "HTTP Request.ping | #1 (1).executor": "Run",
     "HTTP Request.ping | #1.executor": "Run",
-    "Maven.spring-java17-service [clean,package].executor": "Run",
-    "Notification.DisplayName-DoNotAsk-Enable google-java-format": "Enable google-java-format",
-    "Notification.DoNotAsk-Enable google-java-format": "true",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
+    "HTTP Request.ping | #2.executor": "Run",
+    "HTTP Request.ping | #3.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.go.formatter.settings.were.checked": "true",
     "RunOnceActivity.go.migrated.go.modules.settings": "true",
-    "Spring Boot.SpringJava17ServiceApplication.executor": "Run",
     "go.import.settings.migrated": "true",
+    "jdk.selected.JAVA_MODULE": "corretto-21",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/gonin/Documents/projects/0_tayyab/moonproject/helmsman-test",
+    "last_opened_file_path": "C:/Users/gonin/Documents/projects/7_elastic/blog-examples/spring-java17",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
+    "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "ml.llm.AIAssistantPromptsLibrary",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\gonin\Documents\projects\7_elastic\blog-examples\spring-java17-service" />
+      <recent name="C:\Users\gonin\Documents\projects\7_elastic\blog-examples\spring-java17" />
+      <recent name="C:\Users\gonin\Documents\projects\7_elastic\blog-examples\blogs" />
+      <recent name="C:\Users\gonin\Documents\projects\7_elastic\blog-examples\spring-java21\src\main\java\kz\viden\springjava21service" />
+      <recent name="C:\Users\gonin\Documents\projects\7_elastic\blog-examples\spring-java21" />
+      <recent name="C:\Users\gonin\Documents\projects\7_elastic\blog-examples\spring-java17\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="kz.viden.springjava17service" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.SpringJava17ServiceApplication">
-    <configuration name="ping | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/spring-java17-service/ping.http" requestIdentifier="#1" runType="Run single request">
+  <component name="RunManager" selected="Spring Boot.Application">
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="blog-examples" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ping | #1 (1)" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/spring-java21/ping.http" requestIdentifier="#1" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="ping | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/spring-java17/ping.http" requestIdentifier="#1" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="ping | #2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/spring-java21/ping.http" index="2" requestIdentifier="#2" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="ping | #3" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/spring-java21/ping.http" index="3" requestIdentifier="#3" runType="Run single request">
       <method v="2" />
     </configuration>
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
@@ -110,9 +143,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpringJava17ServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+    <configuration name="SpringJava17ServiceApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="spring-java17-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="kz.viden.springjava17service.SpringJava17ServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringJava17ServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="spring-java17" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="kz.viden.springjava17service.SpringJava17ServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringJava21ServiceApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="spring-java21-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="kz.viden.springjava21service.SpringJava21ServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringJava21ServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="spring-java21" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="kz.viden.springjava21service.SpringJava21ServiceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -126,6 +180,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="HTTP Request.ping | #3" />
+        <item itemvalue="HTTP Request.ping | #2" />
+        <item itemvalue="HTTP Request.ping | #1 (1)" />
         <item itemvalue="HTTP Request.ping | #1" />
       </list>
     </recent_temporary>
@@ -134,21 +191,19 @@
     <attachedChunks>
       <set>
         <option value="jdk-17.0.9-corretto-17.0.9-3183f394aec4-8f899f12" />
+        <option value="jdk-21.0.1-corretto-21.0.1-3183f394aec4-3b9d21dd" />
       </set>
     </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="cf757e3f-6651-4ac1-9cff-c1eb67277f28" name="Changes" comment="" />
-      <created>1702617920262</created>
+      <changelist id="ccb13307-47e7-4f69-86e9-cf2e311b2b7f" name="Changes" comment="" />
+      <created>1702879988501</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1702617920262</updated>
-      <workItem from="1702617924063" duration="5840000" />
-      <workItem from="1702630039869" duration="617000" />
-      <workItem from="1702634356882" duration="263000" />
-      <workItem from="1702634646547" duration="11038000" />
+      <updated>1702879988501</updated>
+      <workItem from="1702879993254" duration="6090000" />
     </task>
     <servers />
   </component>
@@ -158,9 +213,5 @@
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>
     <settings-migrated>true</settings-migrated>
-  </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand />
-    <select />
   </component>
 </project>

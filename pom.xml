@@ -13,7 +13,8 @@
         <module>second-service</module>
         <module>reactive-first-sservice</module>
         <module>reactive-second-service</module>
-        <module>spring-java17-service</module>
+        <module>spring-java17</module>
+        <module>spring-java21</module>
     </modules>
 
     <properties>

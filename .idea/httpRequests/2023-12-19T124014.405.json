@@ -1,0 +1,6 @@
+{
+  "timestamp": "2023-12-19T06:40:14.629+00:00",
+  "status": 405,
+  "error": "Method Not Allowed",
+  "path": "/ping"
+}
