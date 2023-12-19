@@ -11,7 +11,7 @@ the image size and include only the necessary dependencies.
 ### Prerequisites
 
 1. Create a simple spring application that you can find here
-   https://github.com/videnkz/blog-examples/tree/master/spring-java21
+   [https://github.com/videnkz/blog-examples/spring-java17-service](https://github.com/videnkz/blog-examples/tree/master/spring-java17)
 
 ### Write a Dockerfile
    We use multi-stage builds:
