@@ -5,22 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ccb13307-47e7-4f69-86e9-cf2e311b2b7f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blogs/02_how_monitor_database_connectino_pool_metrics.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blogs/composes/03_hikari_cp/docker-compose.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blogs/images/03/hikaricp_visualization.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hikari-app/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hikari-app/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hikari-app/src/main/java/com/example/app/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hikari-app/src/main/java/com/example/app/HelloEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hikari-app/src/main/java/com/example/app/HelloGeneratorJob.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hikari-app/src/main/java/com/example/app/HelloRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hikari-app/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogs/composes/base/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/blogs/composes/base/docker-compose.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogs/02_how_monitor_database_connectino_pool_metrics.md" beforeDir="false" afterPath="$PROJECT_DIR$/blogs/02_how_monitor_database_connectino_pool_metrics.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -237,7 +223,7 @@
       <workItem from="1704815661086" duration="5348000" />
       <workItem from="1704947325132" duration="1193000" />
       <workItem from="1705030025720" duration="587000" />
-      <workItem from="1705281727956" duration="11048000" />
+      <workItem from="1705281727956" duration="12137000" />
     </task>
     <servers />
   </component>

@@ -3,13 +3,13 @@
 Elastic APM such another APM tools provides monitoring and troubleshooting of application performance.
 You can find more details about this here [link](https://www.elastic.co/blog/monitoring-java-applications-and-getting-started-with-the-elastic-apm-java-agent).
 
-HikariCP is a reliable, high-performance Java connection pool. In general, connection pooling enhances database
-performance by establishing and keeping a pool of connections live so that they can be reused whenever a connection
-is needed, eliminating the overhead of initiating a new one.
-Monitoring of the Hikari Connection Pool provides visibility into database connection management, allowing
-systems to alert when things go wrong and helping developers understand how their systems are behaving under 
-different loads.
-HikariCP provides various metrics that allow for monitoring the health and performance of the connection pool. 
+>  HikariCP is a reliable, high-performance Java connection pool. In general, connection pooling enhances database
+   performance by establishing and keeping a pool of connections live so that they can be reused whenever a connection
+   is needed, eliminating the overhead of initiating a new one.
+   Monitoring of the Hikari Connection Pool provides visibility into database connection management, allowing
+   systems to alert when things go wrong and helping developers understand how their systems are behaving under 
+   different loads.
+   HikariCP provides various metrics that allow for monitoring the health and performance of the connection pool. 
 
 ### Prerequisites
 
