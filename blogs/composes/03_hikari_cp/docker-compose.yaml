@@ -1,0 +1,27 @@
+version: "3.8.0"
+
+services:
+  hikari-app:
+    build: ../../../hikari-app
+    ports:
+      - 8080:8080
+    environment:
+      - SERVER_PORT=8080
+      - DATASOURCE_URL=jdbc:postgresql://hellodb:5432/hellodb
+      - JAVA_OPTS=-javaagent:/app/elastic-apm-agent-1.45.0.jar
+      - ELASTIC_APM_SERVICE_NAME=hikari-app-service
+      - ELASTIC_APM_SERVER_URL=http://apm-server:8200
+      - ELASTIC_APM_ENVIRONMENT=development
+      - ELASTIC_APM_ENABLED=true
+      - ELASTIC_APM_CAPTURE_JMX_METRICS=object_name[com.zaxxer.hikari:type=Pool (HikariPool-1)] attribute[IdleConnections] attribute[ActiveConnections] attribute[TotalConnections] attribute[ThreadsAwaitingConnection]
+    depends_on: ['hellodb', 'apm-server']
+  hellodb:
+    image: postgres:13.1
+    ports:
+      - 5439:5432
+    environment:
+      - POSTGRES_PASSWORD=hello
+      - POSTGRES_USER=hello
+      - POSTGRES_DB=hellodb
+    command: postgres -c max_connections=150
+

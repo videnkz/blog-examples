@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    driver-class-name: ${DRIVER_CLASS_NAME:org.postgresql.Driver}
+    url: ${DATASOURCE_URL:jdbc:postgresql://localhost:5439/hellodb}
+    username: ${DATASOURCE_USER:hello}
+    password: ${DATASOURCE_PASSWORD:hello}
+    hikari:
+      register-mbeans: true
+      maximum-pool-size: 100
+
+  jpa:
+    hibernate:
+      ddl-auto: create-drop

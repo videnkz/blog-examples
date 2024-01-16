@@ -15,6 +15,7 @@
         <module>reactive-second-service</module>
         <module>spring-java17</module>
         <module>spring-java21</module>
+        <module>hikari-app</module>
     </modules>
 
     <properties>

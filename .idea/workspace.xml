@@ -5,44 +5,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ccb13307-47e7-4f69-86e9-cf2e311b2b7f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/blogs/01_2_custom_jre_spring_with_apm_agent_java21.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blogs/composes/02_custom_jre_spring_java21/docker-compose.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blogs/images/01_1/01_1_0_services.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blogs/images/01_1/01_1_1_service_metadata.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blogs/images/01_1/01_1_2_data.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blogs/images/01_1/01_1_2_transaction.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-java17/Dockerfile_v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-java17/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-java21/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-java21/ping.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-java21/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogs/02_how_monitor_database_connectino_pool_metrics.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogs/composes/03_hikari_cp/docker-compose.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogs/images/03/hikaricp_visualization.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hikari-app/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hikari-app/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hikari-app/src/main/java/com/example/app/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hikari-app/src/main/java/com/example/app/HelloEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hikari-app/src/main/java/com/example/app/HelloGeneratorJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hikari-app/src/main/java/com/example/app/HelloRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hikari-app/src/main/resources/application.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2023-12-16T214258.200.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogs/01_custom_jre_spring_with_apm_agent_java17.md" beforeDir="false" afterPath="$PROJECT_DIR$/blogs/01_1_custom_jre_spring_with_apm_agent_java17.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogs/composes/01_custom_jre_spring_java17/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/blogs/composes/01_custom_jre_spring_java17/docker-compose.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogs/composes/base/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/blogs/composes/base/docker-compose.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-java17-service/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-java17-service/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-java17-service/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-java17-service/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/spring-java17/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-java17-service/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-java17-service/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-java17-service/ping.http" beforeDir="false" afterPath="$PROJECT_DIR$/spring-java17/ping.http" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-java17-service/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-java17-service/src/main/java/kz/viden/springjava17service/PingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-java21/src/main/java/kz/viden/springjava21service/PingController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-java17-service/src/main/java/kz/viden/springjava17service/SpringJava17ServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-java21/src/main/java/kz/viden/springjava21service/SpringJava21ServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-java17-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-java17/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-java17-service/src/test/java/kz/viden/springjava17service/SpringJava17ServiceApplicationTests.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -50,24 +40,24 @@
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="true" />
   </component>
-  <component name="KubernetesApiProvider"><![CDATA[{
-  "contexts": [
+  <component name="KubernetesApiProvider">{
+  &quot;contexts&quot;: [
     {
-      "name": "docker-desktop"
+      &quot;name&quot;: &quot;docker-desktop&quot;
     }
   ],
-  "isMigrated": true
-}]]></component>
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="KubernetesSettings">
     <option name="contextName" value="docker-desktop" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2ZhgzQRZOucSGRYvIjVrome5IXm" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -79,18 +69,25 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Docker.03_hikari_cp/docker-compose.yaml.hellodb: Compose Deployment.executor": "Run",
     "HTTP Request.ping | #1 (1).executor": "Run",
     "HTTP Request.ping | #1.executor": "Run",
     "HTTP Request.ping | #2.executor": "Run",
     "HTTP Request.ping | #3.executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.go.formatter.settings.were.checked": "true",
     "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.Application (1).executor": "Run",
     "go.import.settings.migrated": "true",
-    "jdk.selected.JAVA_MODULE": "corretto-21",
+    "jdk.selected.JAVA_MODULE": "corretto-17",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/gonin/Documents/projects/7_elastic/blog-examples/spring-java17",
+    "last_opened_file_path": "C:/Users/gonin/Documents/projects/2_artist/ci-tools/helmsman-test",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -100,26 +97,34 @@
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\gonin\Documents\projects\7_elastic\blog-examples\spring-java17" />
+      <recent name="C:\Users\gonin\Documents\projects\7_elastic\blog-examples\hikari-app" />
+      <recent name="C:\Users\gonin\Documents\projects\7_elastic\blog-examples\blogs\composes" />
       <recent name="C:\Users\gonin\Documents\projects\7_elastic\blog-examples\blogs" />
+      <recent name="C:\Users\gonin\Documents\projects\7_elastic\blog-examples\spring-java17" />
       <recent name="C:\Users\gonin\Documents\projects\7_elastic\blog-examples\spring-java21\src\main\java\kz\viden\springjava21service" />
-      <recent name="C:\Users\gonin\Documents\projects\7_elastic\blog-examples\spring-java21" />
-      <recent name="C:\Users\gonin\Documents\projects\7_elastic\blog-examples\spring-java17\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\gonin\Documents\projects\7_elastic\blog-examples\blogs\images\03" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="kz.viden.springjava17service" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.Application">
+  <component name="RunManager" selected="Spring Boot.Application (1)">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="blog-examples" />
       <working_directory value="$PROJECT_DIR$" />
       <go_parameters value="-i" />
-      <kind />
+      <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <method v="2" />
@@ -127,14 +132,18 @@
     <configuration name="ping | #1 (1)" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/spring-java21/ping.http" requestIdentifier="#1" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="ping | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/spring-java17/ping.http" requestIdentifier="#1" runType="Run single request">
-      <method v="2" />
-    </configuration>
     <configuration name="ping | #2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/spring-java21/ping.http" index="2" requestIdentifier="#2" runType="Run single request">
       <method v="2" />
     </configuration>
     <configuration name="ping | #3" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/spring-java21/ping.http" index="3" requestIdentifier="#3" runType="Run single request">
       <method v="2" />
+    </configuration>
+    <configuration name="Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="hikari-app" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.app.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="first-service" />
@@ -178,12 +187,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="03_hikari_cp/docker-compose.yaml.hellodb: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="envFilePath" value="" />
+          <option name="services">
+            <list>
+              <option value="hellodb" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="blogs/composes/03_hikari_cp/docker-compose.yaml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.Application (1)" />
+        <item itemvalue="Docker.03_hikari_cp/docker-compose.yaml.hellodb: Compose Deployment" />
         <item itemvalue="HTTP Request.ping | #3" />
         <item itemvalue="HTTP Request.ping | #2" />
         <item itemvalue="HTTP Request.ping | #1 (1)" />
-        <item itemvalue="HTTP Request.ping | #1" />
       </list>
     </recent_temporary>
   </component>
@@ -203,7 +231,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1702879988501</updated>
-      <workItem from="1702879993254" duration="6090000" />
+      <workItem from="1702879993254" duration="11371000" />
+      <workItem from="1703014609602" duration="752000" />
+      <workItem from="1703051993534" duration="3639000" />
+      <workItem from="1704815661086" duration="5348000" />
+      <workItem from="1704947325132" duration="1193000" />
+      <workItem from="1705030025720" duration="587000" />
+      <workItem from="1705281727956" duration="11048000" />
     </task>
     <servers />
   </component>
